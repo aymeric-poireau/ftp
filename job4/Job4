@@ -1,0 +1,13 @@
+# Uncoment this if you're brave.
+ <Directory incoming>
+ Umask 022 is a good standart umask to prevent new files and dirs
+ (second parm) from being group and world writable.
+   Umask022 022
+   <Limit READ WRITE>
+     DenyAll
+     </Limit>
+       <Limit STOR>
+         AllowAll
+     </Limit>
+ </Directory>
+ </Anonymous>

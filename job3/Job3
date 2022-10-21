@@ -1,0 +1,2 @@
+adduser pippin --shell /bin/false --home /home/pippin
+adduser merry --shell /bin/false --home /home/merry
